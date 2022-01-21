@@ -1,0 +1,57 @@
+
+
+body {
+  font-family: "Helvetica", "Lucida Grande", sans-serif;
+  color: #3D3D3D;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo_princip {
+
+  font-color: #3D3D3D;
+  background-color: #E1EDF2;
+  padding: 10px;
+}
+
+.sub_titulo {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+}
+
+figure {
+  text-align: center;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 2px;
+  background-color: whitesmoke;
+  margin: 30px;
+  padding: 15px;
+
+}
+
+figcaption {
+  padding-top: 10px;
+
+}
+
+li {
+  list-style-type: disc;
+}
+
+.Matriz_MusicDot {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.Familia_TupFeln {
+  width: 275px;
+  float: right;
+}
+
+figure img {
+  width: 100%;
+}
