@@ -18,12 +18,14 @@ body {
   font-color: #3D3D3D;
   background-color: #E1EDF2;
   padding: 10px;
+  font-size: 2.5rem;
 }
 
 .sub_titulo {
   border-bottom-style: solid;
   border-bottom-color: black;
   border-bottom-width: 2px;
+  font-size: 2rem;
 }
 
 figure {
@@ -67,7 +69,7 @@ figure img {
   width: 30%;
 }
 
-.contato_secao{
+.contato__secao{
   display: inline-block;
   vertical-align: top;
   margin-left: 16px;
@@ -76,20 +78,15 @@ figure img {
 }
 .contato__secao--correspondências{
 
-  display: block;
-  float: left;
-  margin-right: 9%;
+  display: inline-block;
+  padding-right: 5%;
 
 }
 .contato__secao--telefone{
 
-  display: block;
-  float: right;
-  margin-right: 20%;
-  padding-bottom: 6%;
-
-
-
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 2%;
 }
 
 .contato_info {
@@ -105,17 +102,9 @@ figure img {
   margin-left: 10px;
 }
 
-.rodape {
-  padding: 1.75em 0;
-  font-size: 1.1rem;
-  display: block;
-}
-.rodape__logo {
-width: 6em;
-}
-.rodape__copyright {
- display: inline;
- margin-left: 1em;
+.contato_total{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 870px){
@@ -163,9 +152,6 @@ width: 6em;
     padding-left: 5px;
     font-size: 0.5em;
     border-left: 2px solid lightgray;
-  }
-  .rodape {
-    font-size: 0.5em;
   }
 }
 
