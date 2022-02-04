@@ -1,11 +1,16 @@
 /*itens do header */
     .cabeçalho {
+      position: absolute;
+      top: 0;
+      width: 80%;
+      box-sizing: border-box;
+
       text-align: center;
       font-size: 0.5rem;
       font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 0.23em;
-      background-color: #2D5377;
+      letter-spacing: 0.18em;
+      /*background-color: #2D5377;*/
       color: #fff;
     }
     .cabecalho_logo{
@@ -19,12 +24,19 @@
       background-color: #272b3a87;
 
     }
+    .cabecalho_item-menu:hover {
+    transform: translate(0, .22rem);
+    background-color: rgba(66, 134, 244, 0.337);
+    transition: .25s;
+    }
+
     .cabecalho_item-menu{
       display: inline-block;
+      transition: .25s;
     }
     .cabecalho_item-menu{
       display: inline-block;
-      padding: 0.6em 0.4em;
+      padding: 0.2em 0.2em;
     }
 /* detalhes do footer*/
   .rodape {
@@ -98,6 +110,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: black;
+    width: 80%;
 
   }
   .cabecalho_logo{
@@ -108,6 +122,14 @@
   }
 }
 @media(min-width: 770px){
+  .cabeçalho {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    width: 80%;
+}
   .cabecalho_menu--matricular{
     margin-left: 1.42em;
     border-radius: 6px;
@@ -119,9 +141,17 @@
 }
 @media(min-width: 1066px){
   .cabeçalho {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    width: 80%;
     padding-left: calc((100% - 940px) / 2);
     padding-right: calc((100% - 940px) / 2);
-  }
+    font-size: 0.5em;
+}
+
 }
 
 @media (max-width: 640px) {
@@ -167,6 +197,17 @@
  }
 }
 @media(min-width: 1200px) {
+  .cabeçalho {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    width: 80%;
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+    font-size: 0.5em;
+}
  .rodape {
  display: flex;
  justify-content: space-between;
